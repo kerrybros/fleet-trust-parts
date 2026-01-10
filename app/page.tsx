@@ -6,63 +6,91 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
       <main className="flex w-full max-w-4xl flex-col items-center justify-center px-6 py-12 text-center">
         {/* Logo */}
-        <div className="mb-8">
-          <div className="flex items-center justify-center w-32 h-32 bg-white rounded-2xl shadow-lg mb-6">
+        <div className="mb-4">
+          <div className="flex items-center justify-center">
             <Image
-              src="/logo.svg"
+              src="/FTP Logo Transparent Background.png"
               alt="Fleet Trust Parts Logo"
-              width={120}
-              height={120}
+              width={250}
+              height={250}
               priority
-              className="rounded-xl"
             />
           </div>
         </div>
 
         {/* Main Content */}
-        <div className="mb-12">
-          <h1 className="text-5xl font-bold text-slate-900 mb-4 tracking-tight">
-            Fleet Trust Parts
-          </h1>
-          <div className="flex items-center justify-center gap-2 mb-6">
+        <div className="mb-6">
+          <div className="flex items-center justify-center gap-2">
             <Clock className="w-5 h-5 text-blue-600" />
             <p className="text-xl text-slate-600 font-medium">
-              Coming Soon
+              Full Website Coming Soon
             </p>
           </div>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            We're building something great for the commercial vehicle industry. 
-            Your trusted partner for quality parts and exceptional service.
-          </p>
         </div>
 
         {/* Contact Information */}
         <div className="bg-white rounded-2xl shadow-xl p-8 max-w-md w-full">
           <h2 className="text-2xl font-semibold text-slate-900 mb-6">
-            Get in Touch
+            Contact
           </h2>
           
           <div className="space-y-4">
             {/* Email */}
             <a 
-              href="mailto:info@fleettrustparts.com"
+              href="mailto:Victor@fleettrustparts.com"
               className="flex items-center justify-center gap-3 p-4 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors group"
             >
               <Mail className="w-5 h-5 text-blue-600 group-hover:scale-110 transition-transform" />
               <span className="text-slate-700 font-medium">
-                info@fleettrustparts.com
+                Victor@fleettrustparts.com
               </span>
             </a>
 
-            {/* Phone */}
+            {/* Office Phone */}
             <a 
-              href="tel:+15555551234"
+              href="tel:+13138956600"
               className="flex items-center justify-center gap-3 p-4 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors group"
             >
               <Phone className="w-5 h-5 text-blue-600 group-hover:scale-110 transition-transform" />
-              <span className="text-slate-700 font-medium">
-                (555) 555-1234
-              </span>
+              <div className="text-left">
+                <div className="text-xs text-slate-500">Office</div>
+                <div className="text-slate-700 font-medium">313-895-6600</div>
+              </div>
+            </a>
+
+            {/* Cell Phone */}
+            <a 
+              href="tel:+13139008059"
+              className="flex items-center justify-center gap-3 p-4 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors group"
+            >
+              <Phone className="w-5 h-5 text-blue-600 group-hover:scale-110 transition-transform" />
+              <div className="text-left">
+                <div className="text-xs text-slate-500">Cell</div>
+                <div className="text-slate-700 font-medium">313-900-8059</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        {/* Service Company Link */}
+        <div className="mt-8 p-6 bg-white rounded-xl shadow-lg max-w-md w-full">
+          <p className="text-slate-600 mb-4">
+            Check out our service company
+          </p>
+          <div className="flex items-center justify-center gap-4">
+            <Image
+              src="/Kerry Brothers Truck Repair Logo Transpaent.png"
+              alt="Kerry Brothers Truck Repair Logo"
+              width={150}
+              height={75}
+            />
+            <a 
+              href="https://www.kerrybros.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-700 font-semibold text-lg hover:underline transition-colors"
+            >
+              www.kerrybros.com
             </a>
           </div>
         </div>
