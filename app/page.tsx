@@ -72,29 +72,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Service Company Link */}
-        <div className="mt-8 p-6 bg-white rounded-xl shadow-lg max-w-md w-full">
-          <p className="text-slate-600 mb-4">
-            Check out our service company
-          </p>
-          <div className="flex items-center justify-center gap-4">
-            <Image
-              src="/Kerry Brothers Truck Repair Logo Transpaent.png"
-              alt="Kerry Brothers Truck Repair Logo"
-              width={150}
-              height={75}
-            />
-            <a 
-              href="https://www.kerrybros.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-700 font-semibold text-lg hover:underline transition-colors"
-            >
-              www.kerrybros.com
-            </a>
-          </div>
-        </div>
-
         {/* Footer */}
         <footer className="mt-12 text-sm text-slate-500">
           <p>&copy; {new Date().getFullYear()} Fleet Trust Parts. All rights reserved.</p>
