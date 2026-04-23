@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Mail, Phone, Clock } from "lucide-react";
+import ContactForm from "./ContactForm";
 
 export default function Home() {
   return (
@@ -33,10 +34,10 @@ export default function Home() {
           <h2 className="text-2xl font-semibold text-slate-900 mb-6">
             Contact
           </h2>
-          
+
           <div className="space-y-4">
             {/* Email */}
-            <a 
+            <a
               href="mailto:Victor@fleettrustparts.com"
               className="flex items-center justify-center gap-3 p-4 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors group"
             >
@@ -47,7 +48,7 @@ export default function Home() {
             </a>
 
             {/* Office Phone */}
-            <a 
+            <a
               href="tel:+13138956600"
               className="flex items-center justify-center gap-3 p-4 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors group"
             >
@@ -59,7 +60,7 @@ export default function Home() {
             </a>
 
             {/* Cell Phone */}
-            <a 
+            <a
               href="tel:+13139008059"
               className="flex items-center justify-center gap-3 p-4 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors group"
             >
@@ -70,6 +71,13 @@ export default function Home() {
               </div>
             </a>
           </div>
+
+          <div className="my-6 border-t border-slate-200" />
+
+          <h3 className="text-lg font-semibold text-slate-900 mb-4">
+            Send us a message
+          </h3>
+          <ContactForm />
         </div>
 
         {/* Footer */}
