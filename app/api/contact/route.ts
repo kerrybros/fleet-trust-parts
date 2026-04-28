@@ -227,7 +227,7 @@ export async function POST(req: NextRequest) {
     const token = await getAccessToken();
 
     await sendMail(token, {
-      subject: `New contact from ${name}`,
+      subject: `New website submission from ${name}`,
       html: teamEmail(name, email, phone, message),
       to: RECIPIENT,
       replyTo: { address: email, name },
