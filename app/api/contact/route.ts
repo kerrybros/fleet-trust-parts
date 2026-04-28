@@ -105,7 +105,7 @@ function emailShell(innerHtml: string, preheader: string, showFooter: boolean) {
                 <td style="font-size:12px;color:${BRAND_MUTED};line-height:1.6;">
                   <strong style="color:${BRAND_CHARCOAL};">Fleet Trust Parts</strong><br>
                   <a href="mailto:info@fleettrustparts.com" style="color:${BRAND_NAVY};text-decoration:none;">info@fleettrustparts.com</a><br>
-                  Office: <a href="tel:+13138956600" style="color:${BRAND_NAVY};text-decoration:none;">313-895-6600</a> &nbsp;&middot;&nbsp; Cell: <a href="tel:+13139008059" style="color:${BRAND_NAVY};text-decoration:none;">313-900-8059</a>
+                  <a href="tel:+13139008059" style="color:${BRAND_NAVY};text-decoration:none;">313-900-8059</a>
                 </td>
               </tr>
             </table>
